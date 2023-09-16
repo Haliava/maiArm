@@ -1,0 +1,53 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #008DD2;
+    color: white;
+    font-weight: 700;
+    border-radius: 35px;
+    border: none;
+}
+
+.takePartButton {
+    background: linear-gradient(103deg, #00ABFF -18.77%, #00239E 100.57%);
+    border-radius: 10px;
+}
+
+.modal {
+    overflow: scroll;
+}
+
+.modalHeading {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 700px;
+    max-height: 700px;
+    padding: 40px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 2px 8px 4px 0 rgba(0, 0, 0, 0.25);
+    overflow-y: scroll;
+}

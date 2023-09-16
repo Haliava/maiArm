@@ -1,0 +1,23 @@
+.loginForm {
+    gap: 50px;
+    padding: 80px 40px;
+    min-height: 350px;
+}
+
+.loginButtonContainer {
+    justify-items: center;
+    width: 100%;
+}
+
+.loginButton {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.redirectButton {
+    border: 5px solid black;
+    background: none;
+
+    color: white;
+    font-weight: 700;
+}

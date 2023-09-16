@@ -1,0 +1,84 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    position: relative;
+    overflow: hidden;
+    width: 1600px;
+}
+
+.rootRow {
+    min-height: 450px;
+    display: flex;
+    gap: 70px;
+    position: relative;
+}
+
+.galleryImage {
+    object-fit: cover;
+    max-width: 350px;
+    height: 450px;
+}
+
+.row {
+    display: flex;
+    width: 350px;
+    position: absolute;
+    gap: 70px;
+}
+
+.rowOneFirst {
+    animation: swipe 10s linear infinite;
+}
+
+.rowOneSecond {
+    animation: swipe-secondary 10s linear infinite;
+}
+
+.rowTwoFirst {
+    animation: backwardsSwipe 10s linear infinite;
+}
+
+.rowTwoSecond {
+    animation: backwardsSwipe-secondary 10s linear infinite;
+}
+
+@keyframes swipe {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes swipe-secondary {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes backwardsSwipe {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
+
+@keyframes backwardsSwipe-secondary {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+    }
+}

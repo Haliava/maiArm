@@ -1,0 +1,19 @@
+.MAIsportInfo {
+    color: white;
+    font-size: 16px;
+}
+
+.orgTitle {
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.orgAbout {
+    padding-bottom: 20px;
+}
+
+.orgGeo {
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,11 @@
+.root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    min-height: 50vh;
+    margin-bottom: 200px;
+    margin-top: 70px;
+}

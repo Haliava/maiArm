@@ -1,0 +1,68 @@
+.root {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 30px;
+    min-height: 500px;
+    border-radius: 30px;
+    background: linear-gradient(163deg, #008DD2 -9.78%, #046 120.07%);
+}
+
+.form * {
+    color: white;
+    font-weight: 600;
+}
+
+.inputEntry {
+    display: flex;
+    flex-direction: column;
+}
+
+.formInput {
+    color: black;
+    height: 35px;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+}
+
+.formInput * {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inputTitle {
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.formNote {
+    color: black;
+    font-size: 12px;
+}
+
+.nextStepButton {
+    width: 280px;
+    padding: 20px;
+    margin: 40px auto;
+
+    border: none;
+    border-radius: 28px;
+
+    color: black;
+    font-weight: 700;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 20px;
+}
+

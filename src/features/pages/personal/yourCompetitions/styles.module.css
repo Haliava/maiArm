@@ -1,0 +1,30 @@
+.root {
+
+}
+
+.heading {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.competitionLink {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    background-color: #D2EDFB;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listContainer {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

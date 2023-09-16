@@ -1,0 +1,50 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.mainSection {
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.armText {
+    padding: 60px 0;
+    font-weight: 600;
+}
+
+.armIcon {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: -50px;
+}
+
+.galleryText {
+    max-width: 400px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galleryTextHeader {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.galleryTextSecondary {
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1200px) {
+    .armText {
+        font-size: 20px;
+    }
+}

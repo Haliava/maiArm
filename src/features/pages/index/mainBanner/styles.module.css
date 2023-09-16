@@ -1,0 +1,93 @@
+.wrapper {
+    background-color: #008DD2;
+}
+
+.root {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+
+    width: 90%;
+    min-height: 320px;
+    padding: 20px 0 60px 0;
+    margin: 0 auto;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.main {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 10px;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.infoText {
+    max-width: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.buttons {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    min-height: 60px;
+    max-width: 300px;
+    background-color: unset;
+    height: 70%;
+    width: 90%;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+
+    transition: all .1s;
+}
+
+.takePart {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.takePart:hover {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.takePart:active {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.moreInfo {
+    font-weight: 700;
+    color: white;
+}
+
+.moreInfo:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.moreInfo:active {
+    background-color: white;
+}
